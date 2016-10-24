@@ -205,7 +205,7 @@ a:hover { color: #000 }
 }
 .main_nav_box ul li {
   display: inline-block;
-  margin-right: -4px;
+  margin-right: -5px;
   padding: 8px 0;
   position: relative;
 }
