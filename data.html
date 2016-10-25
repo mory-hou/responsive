@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!--[if IE]><![endif]-->
 <!--[if lt IE 7 ]> <html lang="en" class="ie6">    <![endif]-->
 <!--[if IE 7 ]>    <html lang="en" class="ie7">    <![endif]-->
 <!--[if IE 8 ]>    <html lang="en" class="ie8">    <![endif]-->
@@ -7,1249 +6,1310 @@
 <!--[if (gt IE 9)|!(IE)]><!-->
 <html lang="en">
 <!--<![endif]-->
-<head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Mory | sports news</title>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Mory | sports news</title>
 
+		<!-- ~~~=| Font awesome |==-->
+		<link rel="stylesheet" href="font-awesome/4.2.0/css/font-awesome.min.css">
 
-<!-- ~~~=| Font awesome |==--> 
-<link rel="stylesheet" href="font-awesome/4.2.0/css/font-awesome.min.css">
+		<!-- ~~~=| Bootstrap css |==-->
+		<link rel="stylesheet" href="css/bootstrap.css">
 
-<!-- ~~~=| Bootstrap css |==-->
-<link rel="stylesheet" href="css/bootstrap.css">
+		<!-- ~~~=| Theme files  |==-->
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="css/responsive.css">
 
-<!-- ~~~=| Theme files  |==-->
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="css/responsive.css">
+		<!-- Favicons -->
+		<link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon-precomposed.png">
+		<link rel="shortcut icon" type="image/ico" href="images/favicon.ico" />
 
-<!-- Favicons -->
-<link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon-precomposed.png">
-<link rel="shortcut icon" type="image/ico" href="images/favicon.ico"/>
+	</head>
 
-</head>
-<body>
+	<body>
 
-<!-- ~~~=| Header START |=~~~ -->
-<header class="header_area">
-  <div class="header_top">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 col-sm-6 col-xs-12">
-          <div class="header_top_left">
-            <div class="news_twiks">
-              <h4>你好！</h4>
-            </div>
-            <div class="news_twiks_items">
-              <div id="carousel-example-generic1" class="carousel slide" data-ride="carousel"> 
-                
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner" role="listbox">
-                  <div class="item active">
-                    <p>欢迎来到本网站</p>
-                  </div>
-                  <div class="item">
-                    <p>这里是体育爱好者的聚集地</p>
-                  </div>
-                  <div class="item">
-                    <p>希望你能在这找到志同道合的朋友</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-sm-6 col-xs-12">
-          <div class="header_top_right">
-            <div class="social_header">
-              <ul>
-                <li><a class="login" href="">登陆</a></li>
-                <li><a class="register" href="">注册</a></li>
-              </ul>
-            </div>
-            <div class="header_search_box">
-              <form class="header_search hidden-xs" action="index.html">
-                <input type="text" placeholder="Search">
-                <input type="submit" value="">
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  
-  <!-- ~~~=| Logo Area START |=~~~ -->
-  <div class="header_logo_area">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4 col-sm-4 col-xs-12">
-          <div class="logo"> <a href="index.html"><img src="images/logo.png" alt="Site Logo"/></a> </div>
-        </div>
-        <div class="col-md-8 col-sm-8 col-xs-12">
-          <div class="header_text">在这里有最新最热门的体育新闻，如果您有兴趣，可以多多支持本网站。</div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- ~~~=| Logo Area END |=~~~ --> 
-  
-  <!-- ~~~=| Main Navigation START |=~~~ -->
-  <div class="mainnav">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 col-sm-12 col-xs-12">
-          <nav class="main_nav_box">
-            <ul id="nav">
-              <li class="nav_news"><a href="index.html">资讯中心</a></li>
-              <li class="nav_lifeguide"><a href="data.html">数据查询</a></li>
-              <li class="nav_fashion"><a href="content.html">最新消息</a></li>
-              <li class="nav_lifestyle"><a href="content.html">过往比赛</a></li>
-              <li class="nav_gadgets"><a href="content.html">图片新闻</a></li>
-              <li class="nav_video"><a href="content.html#">视频集锦</a></li>
-              <li class="nav_features"><a href="about.html">关于我们</a></li>
-            </ul>
-          </nav>
-          
-          <!-- ~~~=| Mobile Navigation END |=~~~ -->
-          <div class="only-for-mobile">
-            <div class="col-md-12 col-sm-12 col-xs-12">
-              <ul class="ofm">
-                <li class="m_nav"><i class="fa fa-bars"></i> 导航</li>
-              </ul>
-              
-              <!-- MOBILE MENU -->
-              <div class="mobi-menu">
-                <div id='cssmenu'>
-                  <ul>
-                    <li> <a href='index.html'><span>首页</span></a>
-                    </li>
-                    <li class='has-sub'> <a href='#'><span>新闻</span></a>
-                      <ul class="sub-nav">
-                        <li><a href="#"><span>NBA</span></a></li>
-                        <li><a href="#"><span>CBA</span></a></li>
-                        <li><a href="#"><span>中超</span></a></li>
-                        <li><a href="#"><span>英超</span></a></li>
-                        <li><a href="#"><span>西甲</span></a></li>
-                        <li><a href="#"><span>更多</span></a></li>
-                      </ul>
-                    </li>
-                    <li> <a href='#'><span>最新消息</span></a> </li>
-                    <li> <a href='#'><span>过往比赛</span></a></li>
-                    <li> <a href='#'><span>数据查询</span></a> </li>
-                    <li> <a href='#'><span>图片新闻</span></a></li>
-                    <li> <a href='#'><span>视频集锦</span></a> </li>
-                    <li> <a href='#'><span>关于我们</span></a> </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- ~~~=| Mobile Navigation START |=~~~ --> 
-          
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- ~~~=| Main Navigation END |=~~~ --> 
-  
-</header>
-<!-- ~~~=| Header END |=~~~ --> 
+		<!-- ~~~=| Header START |=~~~ -->
+		<header class="header_area">
+			<div class="header_top">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 col-sm-6 col-xs-12">
+							<div class="header_top_left">
+								<div class="news_twiks">
+									<h4>你好！</h4>
+								</div>
+								<div class="news_twiks_items">
+									<div id="carousel-example-generic1" class="carousel slide" data-ride="carousel">
 
-<section class="data_search">
-	<div class="container">
-    <div class="row">
-      <div class="col-md-12 col-sm-12 col-xs-12">
-      	<ul class="nav nav_tabs col-md-2 col-sm-2 col-xs-12 nav_data_lift" >
-      		<li class="active"><a href="#nba" data-toggle='tab'>NBA</a></li>
-      		<li><a href="#cba" data-toggle='tab'>CBA</a></li>
-      		<li><a href="#zhongchao" data-toggle='tab'>中超</a></li>
-      		<li><a href="#yingchao" data-toggle='tab'>英超</a></li>
-      		<li><a href="#xijia" data-toggle='tab'>西甲</a></li>
-      	</ul>
-      	<div class="tab-content col-md-10 col-sm-10 col-xs-12 nav_data_right">
-      		<div class="tab-pane active" id="nba">
-      			<table class="col-md-12 col-sm-12 col-xs-12 table_data_list table-bordered table-hover">
-      				<tbody>
-      					<tr><td colspan="6">常规赛东部排名</td></tr>
-      					<tr>
-      						<td class="col-md-2 col-sm-2 col-xs-2">排名</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">球队</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">胜</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">负</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">胜率</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">胜差</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-2 col-sm-2 col-xs-2">1</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">骑士</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">57</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">25</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">69.5%</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">0</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-2 col-sm-2 col-xs-2">2</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">猛龙</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">56</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">26</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">68.3%</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">1</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-2 col-sm-2 col-xs-2">3</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">热火</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">48</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">34</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">58.5%</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">9</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-2 col-sm-2 col-xs-2">4</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">老鹰</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">48</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">34</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">58.5%</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">9</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-2 col-sm-2 col-xs-2">5</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">凯尔特人</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">48</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">34</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">58.5%</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">9</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-2 col-sm-2 col-xs-2">6</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">黄蜂</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">48</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">34</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">58.5%</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">9</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-2 col-sm-2 col-xs-2">7</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">步行者</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">45</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">37</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">54.9%</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">12</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-2 col-sm-2 col-xs-2">8</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">活塞</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">44</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">38</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">53.7%</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">13</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-2 col-sm-2 col-xs-2">9</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">公牛</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">42</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">40</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">51.2%</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">15</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-2 col-sm-2 col-xs-2">10</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">奇才</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">41</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">41</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">50%</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">16</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-2 col-sm-2 col-xs-2">11</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">魔术</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">35</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">47</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">42.7%</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">22</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-2 col-sm-2 col-xs-2">12</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">雄鹿</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">33</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">49</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">40.2%</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">24</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-2 col-sm-2 col-xs-2">13</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">尼克斯</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">32</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">50</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">39%</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">25</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-2 col-sm-2 col-xs-2">14</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">篮网</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">21</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">61</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">25.6%</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">36</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-2 col-sm-2 col-xs-2">15</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">76人</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">10</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">72</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">12.2%</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">47</td>
-      					</tr>
-      					<tr><td colspan="6">常规赛西部排名</td></tr>
-      					<tr>
-      						<td class="col-md-2 col-sm-2 col-xs-2">排名</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">球队</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">胜</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">负</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">胜率</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">胜差</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-2 col-sm-2 col-xs-2">1</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">勇士</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">73</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">9</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">89%</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">0</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-2 col-sm-2 col-xs-2">2</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">马刺</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">67</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">15</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">81.7%</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">6</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-2 col-sm-2 col-xs-2">3</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">雷霆</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">55</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">27</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">67.1%</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">18</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-2 col-sm-2 col-xs-2">4</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">快船</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">53</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">29</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">64.6%</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">20</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-2 col-sm-2 col-xs-2">5</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">开拓者</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">44</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">38</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">53.7%</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">29</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-2 col-sm-2 col-xs-2">6</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">小牛</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">42</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">40</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">51.2%</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">31</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-2 col-sm-2 col-xs-2">7</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">灰熊</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">42</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">40</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">51.2</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">31</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-2 col-sm-2 col-xs-2">8</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">火箭</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">41</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">41</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">50%</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">32</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-2 col-sm-2 col-xs-2">9</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">爵士</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">40</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">42</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">48.8%</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">33</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-2 col-sm-2 col-xs-2">10</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">国王</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">33</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">49</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">40.2%</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">40</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-2 col-sm-2 col-xs-2">11</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">掘金</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">33</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">49</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">40.2%</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">40</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-2 col-sm-2 col-xs-2">12</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">鹈鹕</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">30</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">52</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">36.6%</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">43</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-2 col-sm-2 col-xs-2">13</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">森林狼</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">29</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">53</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">35.4%</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">44</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-2 col-sm-2 col-xs-2">14</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">太阳</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">23</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">59</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">28%</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">50</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-2 col-sm-2 col-xs-2">15</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">湖人</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">17</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">65</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">20.7%</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">56</td>
-      					</tr>
-      				</tbody>
-      			</table>
-      		</div>
-      		<div class="tab-pane" id="cba">
-      			<table class="col-md-12 col-sm-12 col-xs-12 table_data_list table-bordered table-hover">
-      				<tbody>
-      					<tr>
-      						<td class="col-md-2 col-sm-2 col-xs-2">排名</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">球队</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">胜</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">负</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">胜率</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">胜差</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-2 col-sm-2 col-xs-2">1</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">辽宁</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">31</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">7</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">82%</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">0</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-2 col-sm-2 col-xs-2">2</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">新疆</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">30</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">8</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">79%</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">1</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-2 col-sm-2 col-xs-2">3</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">四川</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">30</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">8</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">79%</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">1</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-2 col-sm-2 col-xs-2">4</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">广东</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">28</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">10</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">74%</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">3</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-2 col-sm-2 col-xs-2">5</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">山东</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">28</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">10</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">74</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">3</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-2 col-sm-2 col-xs-2">6</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">广夏</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">27</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">11</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">71%</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">4</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-2 col-sm-2 col-xs-2">7</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">北京</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">23</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">15</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">61%</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">8</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-2 col-sm-2 col-xs-2">8</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">浙江</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">22</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">16</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">58%</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">9</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-2 col-sm-2 col-xs-2">9</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">深圳</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">19</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">19</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">50%</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">12</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-2 col-sm-2 col-xs-2">10</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">山西</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">18</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">20</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">47%</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">13</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-2 col-sm-2 col-xs-2">11</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">江苏</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">18</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">20</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">47%</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">13</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-2 col-sm-2 col-xs-2">12</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">上海</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">18</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">20</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">47%</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">13</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-2 col-sm-2 col-xs-2">13</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">福建</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">16</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">22</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">42%</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">15</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-2 col-sm-2 col-xs-2">14</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">青岛</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">16</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">22</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">42%</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">15</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-2 col-sm-2 col-xs-2">15</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">北控</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">13</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">25</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">34%</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">18</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-2 col-sm-2 col-xs-2">16</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">同曦</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">12</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">26</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">32%</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">19</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-2 col-sm-2 col-xs-2">17</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">吉林</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">10</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">28</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">26%</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">21</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-2 col-sm-2 col-xs-2">18</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">天津</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">8</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">30</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">21%</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">23</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-2 col-sm-2 col-xs-2">19</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">八一</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">7</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">31</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">18%</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">24</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-2 col-sm-2 col-xs-2">20</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">佛山</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">6</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">32</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">16%</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">25</td>
-      					</tr>
-      				</tbody>
-      			</table>
-      		</div>
-      		<div class="tab-pane" id="zhongchao">
-      			<table class="col-md-12 col-sm-12 col-xs-12 table_data_list table-bordered table-hover">
-      				<tbody>
-      					<tr>
-      						<td class="col-md-1 col-sm-1 col-xs-1">排名</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">球队</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">场次</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">胜</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">平</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">负</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">净胜球</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">积分</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-1 col-sm-1 col-xs-1">1</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">广州恒大</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">8</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">7</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">0</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">1</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">14</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">21</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-1 col-sm-1 col-xs-1">2</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">江苏苏宁</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">8</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">6</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">2</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">0</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">10</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">20</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-1 col-sm-1 col-xs-1">3</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">上海上港</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">8</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">5</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">2</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">1</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">10</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">17</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-1 col-sm-1 col-xs-1">4</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">河北华夏</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">7</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">4</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">2</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">1</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">3</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">14</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-1 col-sm-1 col-xs-1">5</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">河南建业</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">8</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">4</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">1</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">3</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">1</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">13</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-1 col-sm-1 col-xs-1">6</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">天津泰达</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">8</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">3</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">3</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">2</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">-1</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">12</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-1 col-sm-1 col-xs-1">7</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">广州富力</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">8</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">3</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">2</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">3</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">0</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">11</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-2 col-sm-2 col-xs-2">8</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">上海申花</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">8</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">2</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">4</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">2</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">1</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">10</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-1 col-sm-1 col-xs-1">9</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">重庆力帆</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">8</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">1</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">5</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">2</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">-2</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">8</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-1 col-sm-1 col-xs-1">10</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">延边富德</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">8</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">2</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">2</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">4</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">-4</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">8</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-1 col-sm-1 col-xs-1">11</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">石家庄永昌</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">8</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">2</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">2</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">4</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">-4</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">8</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-1 col-sm-1 col-xs-1">12</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">杭州绿城</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">8</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">2</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">1</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">5</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">-4</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">7</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-1 col-sm-1 col-xs-1">13</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">山东鲁能</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">8</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">1</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">5</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">1</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">-5</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">7</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-1 col-sm-1 col-xs-1">14</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">辽宁宏运</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">8</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">1</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">4</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">3</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">-6</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">7</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-1 col-sm-1 col-xs-1">15</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">北京国安</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">7</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">1</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">3</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">3</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">-2</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">6</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-1 col-sm-1 col-xs-1">16</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">长春亚泰</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">8</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">0</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">2</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">6</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">-11</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">2</td>
-      					</tr>
-      				</tbody>
-      			</table>
-      		</div>
-      		<div class="tab-pane" id="yingchao">
-      			<table class="col-md-12 col-sm-12 col-xs-12 table_data_list table-bordered table-hover">
-      				<tbody>
-      					<tr>
-      						<td class="col-md-1 col-sm-1 col-xs-1">排名</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">球队</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">场次</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">胜</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">平</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">负</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">净胜球</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">积分</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-1 col-sm-1 col-xs-1">1</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">莱斯特</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">38</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">23</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">12</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">3</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">32</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">81</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-1 col-sm-1 col-xs-1">2</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">阿森纳</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">38</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">20</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">11</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">7</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">29</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">71</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-1 col-sm-1 col-xs-1">3</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">热刺</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">38</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">19</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">13</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">6</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">34</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">70</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-1 col-sm-1 col-xs-1">4</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">曼城</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">38</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">19</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">9</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">10</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">30</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">66</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-1 col-sm-1 col-xs-1">5</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">曼联</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">38</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">19</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">9</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">10</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">14</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">66</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-1 col-sm-1 col-xs-1">6</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">南安普顿</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">38</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">18</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">9</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">11</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">18</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">63</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-1 col-sm-1 col-xs-1">7</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">西汉姆</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">38</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">16</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">14</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">8</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">14</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">62</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-2 col-sm-2 col-xs-2">8</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">利物浦</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">38</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">16</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">12</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">10</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">13</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">60</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-1 col-sm-1 col-xs-1">9</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">斯托克城</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">38</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">14</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">9</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">15</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">-14</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">51</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-1 col-sm-1 col-xs-1">10</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">切尔西</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">38</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">12</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">14</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">12</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">6</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">50</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-1 col-sm-1 col-xs-1">11</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">埃佛顿</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">38</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">11</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">14</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">13</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">4</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">47</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-1 col-sm-1 col-xs-1">12</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">斯旺西</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">38</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">12</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">11</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">15</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">-10</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">47</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-1 col-sm-1 col-xs-1">13</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">沃特福德</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">38</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">12</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">9</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">17</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">-10</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">45</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-1 col-sm-1 col-xs-1">14</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">西布朗</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">38</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">10</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">13</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">15</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">-14</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">43</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-1 col-sm-1 col-xs-1">15</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">水晶宫</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">38</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">11</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">9</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">18</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">-12</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">42</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-1 col-sm-1 col-xs-1">16</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">伯恩茅斯</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">38</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">11</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">9</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">18</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">-22</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">42</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-1 col-sm-1 col-xs-1">17</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">桑德兰</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">38</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">9</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">12</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">17</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">-14</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">39</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-1 col-sm-1 col-xs-1">18</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">纽卡斯尔</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">38</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">9</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">10</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">19</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">-21</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">37</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-1 col-sm-1 col-xs-1">19</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">诺维奇</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">38</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">9</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">7</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">22</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">-28</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">34</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-1 col-sm-1 col-xs-1">20</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">阿斯顿维拉</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">38</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">3</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">8</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">27</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">-49</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">17</td>
-      					</tr>
-      				</tbody>
-      			</table>
-      		</div>
-      		<div class="tab-pane" id="xijia">
-      			<table class="col-md-12 col-sm-12 col-xs-12 table_data_list table-bordered table-hover">
-      			<tbody>
-      					<tr>
-      						<td class="col-md-1 col-sm-1 col-xs-1">排名</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">球队</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">场次</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">胜</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">平</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">负</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">净胜球</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">积分</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-1 col-sm-1 col-xs-1">1</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">巴塞罗那</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">38</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">29</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">4</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">5</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">83</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">91</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-1 col-sm-1 col-xs-1">2</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">皇家马德里</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">38</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">28</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">6</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">4</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">76</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">90</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-1 col-sm-1 col-xs-1">3</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">马德里竞技</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">38</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">28</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">4</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">6</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">45</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">88</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-1 col-sm-1 col-xs-1">4</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">比利亚雷亚尔</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">38</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">18</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">10</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">10</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">9</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">64</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-1 col-sm-1 col-xs-1">5</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">毕尔巴鄂竞技</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">38</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">18</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">8</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">12</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">13</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">62</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-1 col-sm-1 col-xs-1">6</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">维戈塞尔塔</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">38</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">17</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">9</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">12</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">-8</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">60</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-1 col-sm-1 col-xs-1">7</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">塞维利亚</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">38</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">14</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">10</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">14</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">1</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">52</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-2 col-sm-2 col-xs-2">8</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">马拉加</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">38</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">12</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">12</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">14</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">3</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">48</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-1 col-sm-1 col-xs-1">9</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">皇家社会</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">38</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">13</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">9</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">16</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">-3</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">48</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-1 col-sm-1 col-xs-1">10</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">皇家贝蒂斯</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">38</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">11</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">12</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">15</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">-18</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">45</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-1 col-sm-1 col-xs-1">11</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">拉斯帕尔马斯</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">38</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">12</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">8</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">18</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">-8</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">45</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-1 col-sm-1 col-xs-1">12</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">瓦伦西亚</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">38</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">11</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">11</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">16</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">-2</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">44</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-1 col-sm-1 col-xs-1">13</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">西班牙人</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">38</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">12</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">7</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">19</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">-34</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">43</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-1 col-sm-1 col-xs-1">14</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">埃瓦尔</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">38</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">11</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">10</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">17</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">-12</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">43</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-1 col-sm-1 col-xs-1">15</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">拉科鲁尼亚</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">38</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">8</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">18</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">12</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">-16</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">42</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-1 col-sm-1 col-xs-1">16</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">格拉纳达</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">38</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">10</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">9</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">19</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">-23</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">39</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-1 col-sm-1 col-xs-1">17</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">希洪竞技</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">38</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">10</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">9</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">19</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">-22</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">39</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-1 col-sm-1 col-xs-1">18</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">巴列卡诺</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">38</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">9</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">11</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">18</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">-21</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">38</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-1 col-sm-1 col-xs-1">19</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">赫塔菲</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">38</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">9</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">9</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">20</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">-30</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">36</td>
-      					</tr>
-      					<tr>
-      						<td class="col-md-1 col-sm-1 col-xs-1">20</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">莱万特</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">38</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">8</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">8</td>
-      						<td class="col-md-1 col-sm-1 col-xs-1">22</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">-33</td>
-      						<td class="col-md-2 col-sm-2 col-xs-2">32</td>
-      					</tr>
-      				</tbody>
-      			</table>
-      		</div>
-      	</div>
-      </div>
-     </div>
-     </div>
-	
-</section>
+										<!-- Wrapper for slides -->
+										<div class="carousel-inner" role="listbox">
+											<div class="item active">
+												<p>欢迎来到本网站</p>
+											</div>
+											<div class="item">
+												<p>这里是体育爱好者的聚集地</p>
+											</div>
+											<div class="item">
+												<p>希望你能在这找到志同道合的朋友</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 col-sm-6 col-xs-12">
+							<div class="header_top_right">
+								<div class="social_header">
+									<ul>
+										<li>
+											<a class="login" href="">登陆</a>
+										</li>
+										<li>
+											<a class="register" href="">注册</a>
+										</li>
+									</ul>
+								</div>
+								<div class="header_search_box">
+									<form class="header_search hidden-xs" action="index.html">
+										<input type="text" placeholder="Search">
+										<input type="submit" value="">
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 
-<footer class="footer_area">
-	<div class="footer_bottom">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 col-sm-12 col-xs-12">
-          <div class="footer_bottom_box">
-            <p> &copy; COPY RIGHTS 2016  All Rights Reserved. </p>
-            <p> 如果您有任何疑问，请于我们联系-Mory </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</footer>
-<!-- ~~~=| Footer END |=~~~ --> 
+			<!-- ~~~=| Logo Area START |=~~~ -->
+			<div class="header_logo_area">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4 col-sm-4 col-xs-12">
+							<div class="logo">
+								<a href="index.html"><img src="images/logo.png" alt="Site Logo" /></a>
+							</div>
+						</div>
+						<div class="col-md-8 col-sm-8 col-xs-12">
+							<div class="header_text">在这里有最新最热门的体育新闻，如果您有兴趣，可以多多支持本网站。</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- ~~~=| Logo Area END |=~~~ -->
 
-<!-- ~~~=| Latest jQuery |=~~~ --> 
-<script src="js/jquery.2.1.1.min.js"></script>
+			<!-- ~~~=| Main Navigation START |=~~~ -->
+			<div class="mainnav">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12 col-sm-12 col-xs-12">
+							<nav class="main_nav_box">
+								<ul id="nav">
+									<li class="nav_news">
+										<a href="index.html">资讯中心</a>
+									</li>
+									<li class="nav_lifeguide">
+										<a href="data.html">数据查询</a>
+									</li>
+									<li class="nav_fashion">
+										<a href="content.html">最新消息</a>
+									</li>
+									<li class="nav_lifestyle">
+										<a href="content.html">过往比赛</a>
+									</li>
+									<li class="nav_gadgets">
+										<a href="content.html">图片新闻</a>
+									</li>
+									<li class="nav_video">
+										<a href="content.html#">视频集锦</a>
+									</li>
+									<li class="nav_features">
+										<a href="about.html">关于我们</a>
+									</li>
+								</ul>
+							</nav>
 
-<!-- ~~~=| Bootstrap jQuery |=~~~ --> 
-<script src="js/bootstrap.min.js"></script> 
+							<!-- ~~~=| Mobile Navigation END |=~~~ -->
+							<div class="only-for-mobile">
+								<div class="col-md-12 col-sm-12 col-xs-12">
+									<ul class="ofm">
+										<li class="m_nav"><i class="fa fa-bars"></i> 导航</li>
+									</ul>
 
-<!-- ~~~=| Opacity & Other IE fix for older browser |=~~~ --> 
-<!--[if lte IE 8]>
+									<!-- MOBILE MENU -->
+									<div class="mobi-menu">
+										<div id='cssmenu'>
+											<ul>
+												<li>
+													<a href='index.html'><span>首页</span></a>
+												</li>
+												<li class='has-sub'>
+													<a href='#'><span>新闻</span></a>
+													<ul class="sub-nav">
+														<li>
+															<a href="#"><span>NBA</span></a>
+														</li>
+														<li>
+															<a href="#"><span>CBA</span></a>
+														</li>
+														<li>
+															<a href="#"><span>中超</span></a>
+														</li>
+														<li>
+															<a href="#"><span>英超</span></a>
+														</li>
+														<li>
+															<a href="#"><span>西甲</span></a>
+														</li>
+														<li>
+															<a href="#"><span>更多</span></a>
+														</li>
+													</ul>
+												</li>
+												<li>
+													<a href='#'><span>最新消息</span></a>
+												</li>
+												<li>
+													<a href='#'><span>过往比赛</span></a>
+												</li>
+												<li>
+													<a href='#'><span>数据查询</span></a>
+												</li>
+												<li>
+													<a href='#'><span>图片新闻</span></a>
+												</li>
+												<li>
+													<a href='#'><span>视频集锦</span></a>
+												</li>
+												<li>
+													<a href='#'><span>关于我们</span></a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- ~~~=| Mobile Navigation START |=~~~ -->
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- ~~~=| Main Navigation END |=~~~ -->
+
+		</header>
+		<!-- ~~~=| Header END |=~~~ -->
+
+		<section class="data_search">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 col-sm-12 col-xs-12">
+						<ul class="nav nav_tabs col-md-2 col-sm-2 col-xs-12 nav_data_lift">
+							<li class="active">
+								<a href="#nba" data-toggle='tab'>NBA</a>
+							</li>
+							<li>
+								<a href="#cba" data-toggle='tab'>CBA</a>
+							</li>
+							<li>
+								<a href="#zhongchao" data-toggle='tab'>中超</a>
+							</li>
+							<li>
+								<a href="#yingchao" data-toggle='tab'>英超</a>
+							</li>
+							<li>
+								<a href="#xijia" data-toggle='tab'>西甲</a>
+							</li>
+						</ul>
+						<div class="tab-content col-md-10 col-sm-10 col-xs-12 nav_data_right">
+							<div class="tab-pane active" id="nba">
+								<table class="col-md-12 col-sm-12 col-xs-12 table_data_list table-bordered table-hover">
+									<tbody>
+										<tr>
+											<td colspan="6">常规赛东部排名</td>
+										</tr>
+										<tr>
+											<td class="col-md-2 col-sm-2 col-xs-2">排名</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">球队</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">胜</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">负</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">胜率</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">胜差</td>
+										</tr>
+										<tr>
+											<td class="col-md-2 col-sm-2 col-xs-2">1</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">骑士</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">57</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">25</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">69.5%</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">0</td>
+										</tr>
+										<tr>
+											<td class="col-md-2 col-sm-2 col-xs-2">2</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">猛龙</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">56</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">26</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">68.3%</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">1</td>
+										</tr>
+										<tr>
+											<td class="col-md-2 col-sm-2 col-xs-2">3</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">热火</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">48</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">34</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">58.5%</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">9</td>
+										</tr>
+										<tr>
+											<td class="col-md-2 col-sm-2 col-xs-2">4</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">老鹰</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">48</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">34</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">58.5%</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">9</td>
+										</tr>
+										<tr>
+											<td class="col-md-2 col-sm-2 col-xs-2">5</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">凯尔特人</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">48</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">34</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">58.5%</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">9</td>
+										</tr>
+										<tr>
+											<td class="col-md-2 col-sm-2 col-xs-2">6</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">黄蜂</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">48</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">34</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">58.5%</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">9</td>
+										</tr>
+										<tr>
+											<td class="col-md-2 col-sm-2 col-xs-2">7</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">步行者</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">45</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">37</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">54.9%</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">12</td>
+										</tr>
+										<tr>
+											<td class="col-md-2 col-sm-2 col-xs-2">8</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">活塞</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">44</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">38</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">53.7%</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">13</td>
+										</tr>
+										<tr>
+											<td class="col-md-2 col-sm-2 col-xs-2">9</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">公牛</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">42</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">40</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">51.2%</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">15</td>
+										</tr>
+										<tr>
+											<td class="col-md-2 col-sm-2 col-xs-2">10</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">奇才</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">41</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">41</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">50%</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">16</td>
+										</tr>
+										<tr>
+											<td class="col-md-2 col-sm-2 col-xs-2">11</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">魔术</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">35</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">47</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">42.7%</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">22</td>
+										</tr>
+										<tr>
+											<td class="col-md-2 col-sm-2 col-xs-2">12</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">雄鹿</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">33</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">49</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">40.2%</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">24</td>
+										</tr>
+										<tr>
+											<td class="col-md-2 col-sm-2 col-xs-2">13</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">尼克斯</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">32</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">50</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">39%</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">25</td>
+										</tr>
+										<tr>
+											<td class="col-md-2 col-sm-2 col-xs-2">14</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">篮网</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">21</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">61</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">25.6%</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">36</td>
+										</tr>
+										<tr>
+											<td class="col-md-2 col-sm-2 col-xs-2">15</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">76人</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">10</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">72</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">12.2%</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">47</td>
+										</tr>
+										<tr>
+											<td colspan="6">常规赛西部排名</td>
+										</tr>
+										<tr>
+											<td class="col-md-2 col-sm-2 col-xs-2">排名</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">球队</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">胜</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">负</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">胜率</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">胜差</td>
+										</tr>
+										<tr>
+											<td class="col-md-2 col-sm-2 col-xs-2">1</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">勇士</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">73</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">9</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">89%</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">0</td>
+										</tr>
+										<tr>
+											<td class="col-md-2 col-sm-2 col-xs-2">2</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">马刺</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">67</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">15</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">81.7%</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">6</td>
+										</tr>
+										<tr>
+											<td class="col-md-2 col-sm-2 col-xs-2">3</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">雷霆</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">55</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">27</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">67.1%</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">18</td>
+										</tr>
+										<tr>
+											<td class="col-md-2 col-sm-2 col-xs-2">4</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">快船</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">53</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">29</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">64.6%</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">20</td>
+										</tr>
+										<tr>
+											<td class="col-md-2 col-sm-2 col-xs-2">5</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">开拓者</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">44</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">38</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">53.7%</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">29</td>
+										</tr>
+										<tr>
+											<td class="col-md-2 col-sm-2 col-xs-2">6</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">小牛</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">42</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">40</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">51.2%</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">31</td>
+										</tr>
+										<tr>
+											<td class="col-md-2 col-sm-2 col-xs-2">7</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">灰熊</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">42</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">40</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">51.2</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">31</td>
+										</tr>
+										<tr>
+											<td class="col-md-2 col-sm-2 col-xs-2">8</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">火箭</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">41</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">41</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">50%</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">32</td>
+										</tr>
+										<tr>
+											<td class="col-md-2 col-sm-2 col-xs-2">9</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">爵士</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">40</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">42</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">48.8%</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">33</td>
+										</tr>
+										<tr>
+											<td class="col-md-2 col-sm-2 col-xs-2">10</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">国王</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">33</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">49</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">40.2%</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">40</td>
+										</tr>
+										<tr>
+											<td class="col-md-2 col-sm-2 col-xs-2">11</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">掘金</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">33</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">49</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">40.2%</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">40</td>
+										</tr>
+										<tr>
+											<td class="col-md-2 col-sm-2 col-xs-2">12</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">鹈鹕</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">30</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">52</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">36.6%</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">43</td>
+										</tr>
+										<tr>
+											<td class="col-md-2 col-sm-2 col-xs-2">13</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">森林狼</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">29</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">53</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">35.4%</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">44</td>
+										</tr>
+										<tr>
+											<td class="col-md-2 col-sm-2 col-xs-2">14</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">太阳</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">23</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">59</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">28%</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">50</td>
+										</tr>
+										<tr>
+											<td class="col-md-2 col-sm-2 col-xs-2">15</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">湖人</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">17</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">65</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">20.7%</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">56</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<div class="tab-pane" id="cba">
+								<table class="col-md-12 col-sm-12 col-xs-12 table_data_list table-bordered table-hover">
+									<tbody>
+										<tr>
+											<td class="col-md-2 col-sm-2 col-xs-2">排名</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">球队</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">胜</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">负</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">胜率</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">胜差</td>
+										</tr>
+										<tr>
+											<td class="col-md-2 col-sm-2 col-xs-2">1</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">辽宁</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">31</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">7</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">82%</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">0</td>
+										</tr>
+										<tr>
+											<td class="col-md-2 col-sm-2 col-xs-2">2</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">新疆</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">30</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">8</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">79%</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">1</td>
+										</tr>
+										<tr>
+											<td class="col-md-2 col-sm-2 col-xs-2">3</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">四川</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">30</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">8</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">79%</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">1</td>
+										</tr>
+										<tr>
+											<td class="col-md-2 col-sm-2 col-xs-2">4</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">广东</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">28</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">10</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">74%</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">3</td>
+										</tr>
+										<tr>
+											<td class="col-md-2 col-sm-2 col-xs-2">5</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">山东</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">28</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">10</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">74</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">3</td>
+										</tr>
+										<tr>
+											<td class="col-md-2 col-sm-2 col-xs-2">6</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">广夏</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">27</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">11</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">71%</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">4</td>
+										</tr>
+										<tr>
+											<td class="col-md-2 col-sm-2 col-xs-2">7</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">北京</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">23</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">15</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">61%</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">8</td>
+										</tr>
+										<tr>
+											<td class="col-md-2 col-sm-2 col-xs-2">8</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">浙江</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">22</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">16</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">58%</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">9</td>
+										</tr>
+										<tr>
+											<td class="col-md-2 col-sm-2 col-xs-2">9</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">深圳</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">19</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">19</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">50%</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">12</td>
+										</tr>
+										<tr>
+											<td class="col-md-2 col-sm-2 col-xs-2">10</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">山西</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">18</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">20</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">47%</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">13</td>
+										</tr>
+										<tr>
+											<td class="col-md-2 col-sm-2 col-xs-2">11</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">江苏</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">18</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">20</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">47%</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">13</td>
+										</tr>
+										<tr>
+											<td class="col-md-2 col-sm-2 col-xs-2">12</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">上海</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">18</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">20</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">47%</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">13</td>
+										</tr>
+										<tr>
+											<td class="col-md-2 col-sm-2 col-xs-2">13</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">福建</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">16</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">22</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">42%</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">15</td>
+										</tr>
+										<tr>
+											<td class="col-md-2 col-sm-2 col-xs-2">14</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">青岛</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">16</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">22</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">42%</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">15</td>
+										</tr>
+										<tr>
+											<td class="col-md-2 col-sm-2 col-xs-2">15</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">北控</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">13</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">25</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">34%</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">18</td>
+										</tr>
+										<tr>
+											<td class="col-md-2 col-sm-2 col-xs-2">16</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">同曦</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">12</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">26</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">32%</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">19</td>
+										</tr>
+										<tr>
+											<td class="col-md-2 col-sm-2 col-xs-2">17</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">吉林</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">10</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">28</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">26%</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">21</td>
+										</tr>
+										<tr>
+											<td class="col-md-2 col-sm-2 col-xs-2">18</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">天津</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">8</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">30</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">21%</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">23</td>
+										</tr>
+										<tr>
+											<td class="col-md-2 col-sm-2 col-xs-2">19</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">八一</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">7</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">31</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">18%</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">24</td>
+										</tr>
+										<tr>
+											<td class="col-md-2 col-sm-2 col-xs-2">20</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">佛山</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">6</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">32</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">16%</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">25</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<div class="tab-pane" id="zhongchao">
+								<table class="col-md-12 col-sm-12 col-xs-12 table_data_list table-bordered table-hover">
+									<tbody>
+										<tr>
+											<td class="col-md-1 col-sm-1 col-xs-1">排名</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">球队</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">场次</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">胜</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">平</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">负</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">净胜球</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">积分</td>
+										</tr>
+										<tr>
+											<td class="col-md-1 col-sm-1 col-xs-1">1</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">广州恒大</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">8</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">7</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">0</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">1</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">14</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">21</td>
+										</tr>
+										<tr>
+											<td class="col-md-1 col-sm-1 col-xs-1">2</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">江苏苏宁</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">8</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">6</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">2</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">0</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">10</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">20</td>
+										</tr>
+										<tr>
+											<td class="col-md-1 col-sm-1 col-xs-1">3</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">上海上港</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">8</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">5</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">2</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">1</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">10</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">17</td>
+										</tr>
+										<tr>
+											<td class="col-md-1 col-sm-1 col-xs-1">4</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">河北华夏</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">7</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">4</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">2</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">1</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">3</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">14</td>
+										</tr>
+										<tr>
+											<td class="col-md-1 col-sm-1 col-xs-1">5</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">河南建业</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">8</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">4</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">1</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">3</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">1</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">13</td>
+										</tr>
+										<tr>
+											<td class="col-md-1 col-sm-1 col-xs-1">6</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">天津泰达</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">8</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">3</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">3</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">2</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">-1</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">12</td>
+										</tr>
+										<tr>
+											<td class="col-md-1 col-sm-1 col-xs-1">7</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">广州富力</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">8</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">3</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">2</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">3</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">0</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">11</td>
+										</tr>
+										<tr>
+											<td class="col-md-2 col-sm-2 col-xs-2">8</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">上海申花</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">8</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">2</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">4</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">2</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">1</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">10</td>
+										</tr>
+										<tr>
+											<td class="col-md-1 col-sm-1 col-xs-1">9</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">重庆力帆</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">8</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">1</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">5</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">2</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">-2</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">8</td>
+										</tr>
+										<tr>
+											<td class="col-md-1 col-sm-1 col-xs-1">10</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">延边富德</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">8</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">2</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">2</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">4</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">-4</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">8</td>
+										</tr>
+										<tr>
+											<td class="col-md-1 col-sm-1 col-xs-1">11</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">石家庄永昌</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">8</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">2</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">2</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">4</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">-4</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">8</td>
+										</tr>
+										<tr>
+											<td class="col-md-1 col-sm-1 col-xs-1">12</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">杭州绿城</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">8</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">2</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">1</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">5</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">-4</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">7</td>
+										</tr>
+										<tr>
+											<td class="col-md-1 col-sm-1 col-xs-1">13</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">山东鲁能</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">8</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">1</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">5</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">1</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">-5</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">7</td>
+										</tr>
+										<tr>
+											<td class="col-md-1 col-sm-1 col-xs-1">14</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">辽宁宏运</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">8</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">1</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">4</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">3</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">-6</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">7</td>
+										</tr>
+										<tr>
+											<td class="col-md-1 col-sm-1 col-xs-1">15</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">北京国安</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">7</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">1</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">3</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">3</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">-2</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">6</td>
+										</tr>
+										<tr>
+											<td class="col-md-1 col-sm-1 col-xs-1">16</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">长春亚泰</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">8</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">0</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">2</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">6</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">-11</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">2</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<div class="tab-pane" id="yingchao">
+								<table class="col-md-12 col-sm-12 col-xs-12 table_data_list table-bordered table-hover">
+									<tbody>
+										<tr>
+											<td class="col-md-1 col-sm-1 col-xs-1">排名</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">球队</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">场次</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">胜</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">平</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">负</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">净胜球</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">积分</td>
+										</tr>
+										<tr>
+											<td class="col-md-1 col-sm-1 col-xs-1">1</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">莱斯特</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">38</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">23</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">12</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">3</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">32</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">81</td>
+										</tr>
+										<tr>
+											<td class="col-md-1 col-sm-1 col-xs-1">2</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">阿森纳</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">38</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">20</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">11</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">7</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">29</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">71</td>
+										</tr>
+										<tr>
+											<td class="col-md-1 col-sm-1 col-xs-1">3</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">热刺</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">38</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">19</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">13</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">6</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">34</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">70</td>
+										</tr>
+										<tr>
+											<td class="col-md-1 col-sm-1 col-xs-1">4</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">曼城</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">38</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">19</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">9</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">10</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">30</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">66</td>
+										</tr>
+										<tr>
+											<td class="col-md-1 col-sm-1 col-xs-1">5</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">曼联</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">38</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">19</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">9</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">10</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">14</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">66</td>
+										</tr>
+										<tr>
+											<td class="col-md-1 col-sm-1 col-xs-1">6</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">南安普顿</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">38</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">18</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">9</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">11</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">18</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">63</td>
+										</tr>
+										<tr>
+											<td class="col-md-1 col-sm-1 col-xs-1">7</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">西汉姆</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">38</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">16</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">14</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">8</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">14</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">62</td>
+										</tr>
+										<tr>
+											<td class="col-md-2 col-sm-2 col-xs-2">8</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">利物浦</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">38</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">16</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">12</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">10</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">13</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">60</td>
+										</tr>
+										<tr>
+											<td class="col-md-1 col-sm-1 col-xs-1">9</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">斯托克城</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">38</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">14</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">9</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">15</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">-14</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">51</td>
+										</tr>
+										<tr>
+											<td class="col-md-1 col-sm-1 col-xs-1">10</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">切尔西</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">38</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">12</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">14</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">12</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">6</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">50</td>
+										</tr>
+										<tr>
+											<td class="col-md-1 col-sm-1 col-xs-1">11</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">埃佛顿</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">38</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">11</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">14</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">13</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">4</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">47</td>
+										</tr>
+										<tr>
+											<td class="col-md-1 col-sm-1 col-xs-1">12</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">斯旺西</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">38</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">12</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">11</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">15</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">-10</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">47</td>
+										</tr>
+										<tr>
+											<td class="col-md-1 col-sm-1 col-xs-1">13</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">沃特福德</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">38</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">12</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">9</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">17</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">-10</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">45</td>
+										</tr>
+										<tr>
+											<td class="col-md-1 col-sm-1 col-xs-1">14</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">西布朗</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">38</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">10</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">13</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">15</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">-14</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">43</td>
+										</tr>
+										<tr>
+											<td class="col-md-1 col-sm-1 col-xs-1">15</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">水晶宫</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">38</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">11</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">9</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">18</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">-12</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">42</td>
+										</tr>
+										<tr>
+											<td class="col-md-1 col-sm-1 col-xs-1">16</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">伯恩茅斯</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">38</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">11</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">9</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">18</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">-22</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">42</td>
+										</tr>
+										<tr>
+											<td class="col-md-1 col-sm-1 col-xs-1">17</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">桑德兰</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">38</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">9</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">12</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">17</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">-14</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">39</td>
+										</tr>
+										<tr>
+											<td class="col-md-1 col-sm-1 col-xs-1">18</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">纽卡斯尔</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">38</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">9</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">10</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">19</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">-21</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">37</td>
+										</tr>
+										<tr>
+											<td class="col-md-1 col-sm-1 col-xs-1">19</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">诺维奇</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">38</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">9</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">7</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">22</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">-28</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">34</td>
+										</tr>
+										<tr>
+											<td class="col-md-1 col-sm-1 col-xs-1">20</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">阿斯顿维拉</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">38</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">3</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">8</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">27</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">-49</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">17</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<div class="tab-pane" id="xijia">
+								<table class="col-md-12 col-sm-12 col-xs-12 table_data_list table-bordered table-hover">
+									<tbody>
+										<tr>
+											<td class="col-md-1 col-sm-1 col-xs-1">排名</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">球队</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">场次</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">胜</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">平</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">负</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">净胜球</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">积分</td>
+										</tr>
+										<tr>
+											<td class="col-md-1 col-sm-1 col-xs-1">1</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">巴塞罗那</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">38</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">29</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">4</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">5</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">83</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">91</td>
+										</tr>
+										<tr>
+											<td class="col-md-1 col-sm-1 col-xs-1">2</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">皇家马德里</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">38</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">28</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">6</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">4</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">76</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">90</td>
+										</tr>
+										<tr>
+											<td class="col-md-1 col-sm-1 col-xs-1">3</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">马德里竞技</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">38</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">28</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">4</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">6</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">45</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">88</td>
+										</tr>
+										<tr>
+											<td class="col-md-1 col-sm-1 col-xs-1">4</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">比利亚雷亚尔</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">38</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">18</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">10</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">10</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">9</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">64</td>
+										</tr>
+										<tr>
+											<td class="col-md-1 col-sm-1 col-xs-1">5</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">毕尔巴鄂竞技</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">38</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">18</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">8</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">12</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">13</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">62</td>
+										</tr>
+										<tr>
+											<td class="col-md-1 col-sm-1 col-xs-1">6</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">维戈塞尔塔</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">38</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">17</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">9</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">12</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">-8</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">60</td>
+										</tr>
+										<tr>
+											<td class="col-md-1 col-sm-1 col-xs-1">7</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">塞维利亚</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">38</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">14</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">10</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">14</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">1</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">52</td>
+										</tr>
+										<tr>
+											<td class="col-md-2 col-sm-2 col-xs-2">8</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">马拉加</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">38</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">12</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">12</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">14</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">3</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">48</td>
+										</tr>
+										<tr>
+											<td class="col-md-1 col-sm-1 col-xs-1">9</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">皇家社会</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">38</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">13</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">9</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">16</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">-3</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">48</td>
+										</tr>
+										<tr>
+											<td class="col-md-1 col-sm-1 col-xs-1">10</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">皇家贝蒂斯</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">38</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">11</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">12</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">15</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">-18</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">45</td>
+										</tr>
+										<tr>
+											<td class="col-md-1 col-sm-1 col-xs-1">11</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">拉斯帕尔马斯</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">38</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">12</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">8</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">18</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">-8</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">45</td>
+										</tr>
+										<tr>
+											<td class="col-md-1 col-sm-1 col-xs-1">12</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">瓦伦西亚</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">38</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">11</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">11</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">16</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">-2</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">44</td>
+										</tr>
+										<tr>
+											<td class="col-md-1 col-sm-1 col-xs-1">13</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">西班牙人</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">38</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">12</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">7</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">19</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">-34</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">43</td>
+										</tr>
+										<tr>
+											<td class="col-md-1 col-sm-1 col-xs-1">14</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">埃瓦尔</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">38</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">11</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">10</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">17</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">-12</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">43</td>
+										</tr>
+										<tr>
+											<td class="col-md-1 col-sm-1 col-xs-1">15</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">拉科鲁尼亚</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">38</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">8</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">18</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">12</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">-16</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">42</td>
+										</tr>
+										<tr>
+											<td class="col-md-1 col-sm-1 col-xs-1">16</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">格拉纳达</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">38</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">10</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">9</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">19</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">-23</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">39</td>
+										</tr>
+										<tr>
+											<td class="col-md-1 col-sm-1 col-xs-1">17</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">希洪竞技</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">38</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">10</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">9</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">19</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">-22</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">39</td>
+										</tr>
+										<tr>
+											<td class="col-md-1 col-sm-1 col-xs-1">18</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">巴列卡诺</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">38</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">9</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">11</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">18</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">-21</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">38</td>
+										</tr>
+										<tr>
+											<td class="col-md-1 col-sm-1 col-xs-1">19</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">赫塔菲</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">38</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">9</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">9</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">20</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">-30</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">36</td>
+										</tr>
+										<tr>
+											<td class="col-md-1 col-sm-1 col-xs-1">20</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">莱万特</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">38</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">8</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">8</td>
+											<td class="col-md-1 col-sm-1 col-xs-1">22</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">-33</td>
+											<td class="col-md-2 col-sm-2 col-xs-2">32</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</section>
+
+		<footer class="footer_area">
+			<div class="footer_bottom">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12 col-sm-12 col-xs-12">
+							<div class="footer_bottom_box">
+								<p> &copy; COPY RIGHTS 2016 All Rights Reserved. </p>
+								<p> 如果您有任何疑问，请于我们联系-Mory </p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- ~~~=| Footer END |=~~~ -->
+
+		<!-- ~~~=| Latest jQuery |=~~~ -->
+		<script src="js/jquery.2.1.1.min.js"></script>
+
+		<!-- ~~~=| Bootstrap jQuery |=~~~ -->
+		<script src="js/bootstrap.min.js"></script>
+
+		<!-- ~~~=| Opacity & Other IE fix for older browser |=~~~ -->
+		<!--[if lte IE 8]>
 		<script type="text/javascript" src="js/ie-opacity-polyfill.js"></script>
-	<![endif]--> 
+	<![endif]-->
 
-<!-- ~~~=| Theme jQuery |=~~~ --> 
-<script src="js/main.js"></script>
-</body>
+		<!-- ~~~=| Theme jQuery |=~~~ -->
+		<script src="js/main.js"></script>
+	</body>
+
 </html>
